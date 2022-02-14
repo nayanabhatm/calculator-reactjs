@@ -9,4 +9,8 @@
     color: $text-color;
     width: 40%;
     padding: 1%;
+
+    @media (max-width: 400px) {
+        width: 80%;
+    }
 }

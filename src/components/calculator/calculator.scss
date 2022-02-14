@@ -12,6 +12,9 @@
     h1{
         margin: 0.1rem;
     }
+    @media (max-width: 400px) {
+        width: 80%;
+    }
 }
 
 .calculator{
@@ -67,5 +70,8 @@
             opacity: 0.8;
         }
     }
-    
+
+    @media (max-width: 400px) {
+        width: 80%;
+    }
 }
