@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+.themes{
+    display: flex;
+    .theme{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.themeA{
+    background-color: yellowgreen;
+}
+
+.themeB{
+    background-color: blueviolet;
+}
+
+.themeC{
+    background-color: cadetblue;
+}

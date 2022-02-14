@@ -1,0 +1,12 @@
+@import "../../variables.scss";
+
+.calc-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-size: 1.5rem;
+    color: $text-color;
+    width: 40%;
+    padding: 1%;
+}

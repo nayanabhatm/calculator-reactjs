@@ -1,0 +1,71 @@
+@import "../../variables.scss";
+
+.result-card{
+    background: $background;
+    margin: 1rem auto;
+    padding: 2%;
+    min-height: 2rem;
+    border-radius:  $border-radius;
+    color: $text-color;
+    text-align: right;
+    width: 40%;
+    h1{
+        margin: 0.1rem;
+    }
+}
+
+.calculator{
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    background: $background;
+    margin: auto;
+    padding: 2%;
+    border-radius: $border-radius;
+
+    .btn{
+        background-color: $btn-bkg;
+        margin: 0.4rem;
+        padding: 8% 0;
+        border-radius:  $border-radius;
+        border: none;
+        font-size: 1.3rem;
+        font-weight: bolder;
+        color:$text-color;
+        cursor: pointer;
+        &:hover{
+            background-color: change-color($color: $btn-bkg, $red: 100, $green: 100, $blue: 100, $alpha: 1.0);
+            opacity: 0.8;
+        };
+        &:active{
+            -webkit-box-shadow:$box-shadow-active;
+            -moz-box-shadow: $box-shadow-active;
+                 box-shadow: $box-shadow-active;
+        }
+    }
+    .btndel{
+        background-color: $btn-reset;
+        font-weight: normal;
+        &:hover{
+            background-color: $btn-reset;
+            opacity: 0.8;
+        }
+    }
+    .btnreset{
+        background-color: $btn-reset;
+        font-weight: normal;
+        &:hover{
+            background-color: $btn-reset;
+            opacity: 0.8;
+        }
+    }
+    .btnequals{
+        background-color: $btn-equals;
+        &:hover{
+            background-color: $btn-equals;
+            opacity: 0.8;
+        }
+    }
+    
+}
